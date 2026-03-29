@@ -16,6 +16,9 @@ author_profile: true
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
+      {% if post.published == false %}
+        {% continue %}
+      {% endif %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -28,6 +31,9 @@ author_profile: true
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
+    {% if post.published == false %}
+      {% continue %}
+    {% endif %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
