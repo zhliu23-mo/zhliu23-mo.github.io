@@ -1,12 +1,13 @@
 ---
 title: "NeRM-Net: Reflective Evolution of Routing Strategies for Dynamic Communication Networks"
 collection: publications
+category: conferences
 permalink: /publication/2025-09-01-NeRM-Net
 excerpt: 'We propose a reflective co-evolutionary framework that optimizes task descriptions and routing algorithms via network state feedback using LLMs.'
 date: 2025-09-01
 venue: 'ACM CoNEXT 2025 Workshop'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-DOI: [10.1145/3769697.3771243](https://doi.org/10.1145/3769697.3771243)
+paperurl: 'https://dl.acm.org/doi/epdf/10.1145/3769697.3771243'
+DOI: 'https://doi.org/10.1145/3769697.3771243'
 citation: 'Author A, Author B, Author C, <b>Zhongheng Liu</b>, Quanming Yao. (2025). "NeRM-Net: Reflective Evolution of Routing Strategies for Dynamic Communication Networks." <i>ACM CoNEXT Workshop</i>.'
 
 ---
