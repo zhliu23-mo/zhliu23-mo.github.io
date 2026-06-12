@@ -7,8 +7,37 @@ author_profile: true
 
 {% include base_path %}
 
+<p class="portfolio-intro">
+  Selected projects from coursework and research. I keep this page lightweight and visual: each card highlights the core idea, technical stack, and a short artifact preview.
+</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="portfolio-grid">
+  {% assign portfolio_items = site.portfolio | sort: "order" %}
+  {% for post in portfolio_items %}
+    <article class="portfolio-card">
+      {% if post.project_image %}
+        <a class="portfolio-card__media" href="{{ base_path }}{{ post.url }}" aria-label="Open {{ post.title }}">
+          <img src="{{ post.project_image | prepend: base_path }}" alt="{{ post.image_alt | default: post.title }}">
+        </a>
+      {% endif %}
+      <div class="portfolio-card__body">
+        <h2 class="portfolio-card__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="portfolio-card__meta">{{ post.timeline }} · {{ post.role }}</p>
+        <p>{{ post.excerpt | strip_html }}</p>
+        {% if post.terminal_preview %}
+          <div class="terminal-mini" aria-label="Sample DPO training output log">
+            <div class="terminal-mini__bar">training.log</div>
+            <div class="terminal-mini__content"><span class="terminal-green">$ python train_dpo.py --task algebra</span>
+<span class="terminal-blue">[eval] arithmetic acc: 91.7% | algebra acc: 90.4%</span>
+<span class="terminal-orange">[base] ~0% → [aligned] &gt;90%</span></div>
+          </div>
+        {% endif %}
+        {% if post.tags %}
+          <div class="portfolio-card__tags">
+            {% for tag in post.tags %}<span class="portfolio-card__tag">{{ tag }}</span>{% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

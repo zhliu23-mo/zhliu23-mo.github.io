@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## About Me
 
 Hi there! I am **Zhongheng Liu**, an undergraduate student in Electronic Information and Technology at **Tsinghua University** (expected graduation in June 2027), selected for the **"AI + System" Talent Program**.
 
@@ -16,7 +15,7 @@ My research broadly centers on efficient and adaptive AI systems, especially **L
 
 You can find my full CV here: [Download CV](/files/CV_ZhonghengLiu.pdf).
 
-## News
+## 🔥News
 
 * **[Jun. 2026]** I will join HKUST for a summer research program.
 * **[May 2026]** Completed my exchange program at NTU EEE.
@@ -24,7 +23,7 @@ You can find my full CV here: [Download CV](/files/CV_ZhonghengLiu.pdf).
 * **[Oct. 2025]** Won 3rd Prize at the 1st AI Agent Innovation Competition at Tsinghua University.
 * **[Sep. 2025]** Our paper *"NeRM-Net: Reflective Evolution of Routing Strategies for Dynamic Communication Networks"* was accepted at the ACM CoNEXT 2025 Workshop.
 
-## Education
+## 📖Education
 
 * **Tsinghua University**, B.S. in Electronic Information and Technology, Aug. 2023 - Jun. 2027 (Expected)
   * GPA: 3.8/4.0; selected member of the "AI + System" Talent Program.
@@ -38,7 +37,7 @@ You can find my full CV here: [Download CV](/files/CV_ZhonghengLiu.pdf).
 * Graph learning and dynamic network routing.
 * Reinforcement learning for adaptive decision-making.
 
-## Awards
+## 🎖Honors & Awards
 
 * 3rd Prize, 1st AI Agent Innovation Competition, Tsinghua University, Oct. 2025.
 * Honorable Mention, MCM/ICM Mathematical Contest in Modeling, Feb. 2025.
