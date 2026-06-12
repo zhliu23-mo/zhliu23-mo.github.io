@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## About Me
+## Summary
 
 Hi there! I am **Zhongheng Liu**, an undergraduate student in Electronic Information and Technology at **Tsinghua University** (expected graduation in June 2027), selected for the **"AI + System" Talent Program**.
 
