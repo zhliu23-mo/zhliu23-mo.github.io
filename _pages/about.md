@@ -38,7 +38,9 @@ You can find my full CV here: [Download CV](/files/CV_ZhonghengLiu.pdf).
 * Reinforcement learning for adaptive decision-making.
 
 ## 🎖Honors & Awards
-
+* 3rd Prize, twice, Ministry of Education Scholarship for Students from Hong Kong, Macao and Overseas Chi-
+nese, 2025|2024
+* Zheng Geru Scholarship for Tech Innovation, Tsinghua University, Oct. 2024.
 * 3rd Prize, 1st AI Agent Innovation Competition, Tsinghua University, Oct. 2025.
 * Honorable Mention, MCM/ICM Mathematical Contest in Modeling, Feb. 2025.
 * Winner Prize (Top 30%), 27th Hardware Design Competition, Tsinghua University, Sept. 2024.
