@@ -60,8 +60,8 @@
 
 .portfolio-card__tag {
   border-radius: 999px;
-  background: rgba(14, 165, 233, 0.11);
-  color: #0369a1;
+  background: rgba(14, 165, 233, 0.18);
+  color: var(--global-link-color, #0ea1c5);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.01em;
